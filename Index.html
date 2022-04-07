@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8"/>
-        <meta name ="author" content="Daniel Fernando López, Nicolás Giraldo Gil, Diana soffía Martínez Palacio"/>
+        <meta name ="author" content="Daniel Fernando López, Nicolás Giraldo Gil, Diana soffía Martínez Palacio"/> <!--esta etiqueta meta desde el punto legal, permiten hacer referencia al diseñador de una página web y al propietario de los derechos del código fuente de una página HTML.-->
         <meta name="description" content="Existen dos grandes ambientes donde coexiste el reino animal (animales acuáticos y terrestres). Acompañanos a aprender mas sobre estos animales y sus caráceristicas "/>
         <title>Mundo Animal</title>
     </head>
@@ -13,7 +13,7 @@
                 <img src="Imagenes/principal.jfif" alt="animales acuaticos, terrestres, aereos"/>
                 <figcaption>Animales fantásticos</figcaption>
             </figure>                           
-            <nav>
+            <nav> <!--menu de navegacion-->
                 <a href="index.html">Página principal</a>
                 <a href="Animales-terrestres.html">Página de animales terrestres</a>
                 <a href="Animales-acuaticos.html">Página de animales acuáticos</a>
@@ -98,6 +98,7 @@
                         <td>Habitan osos, ciervos, búhos, ardillas, linces, marmotas, lobos, zorros, entre otros.</td>
                     </tr>
                 </table>
+                <h1>Video relacionado a los bosques y sus caracteristicas: </h1>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/C-Gvs1CV7Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
             <h2>Temas relacionados</h2>
@@ -128,7 +129,11 @@
                     <span>País de residencia</span>
                     <input type="text" id="pais" placeholder="Ingrese su pais de residencia">
                 </label>
-                <!--boton de enviar-->
+                <label for="comentarios">
+                    <span>Sugerencias o comentarios</span>
+                    <textarea name="comentarios" placeholder="Ingrese su comentario o sugerencia que desee"></textarea> <!--Un <textarea> es como una caja de texto sencilla, tipo “text”, pero en la que dejamos al usuario espacio de sobra para poder escribir un texto largo. Son útiles para que el usuario contacte con nosotros, plantee sus dudas o sugerencias, etc.-->
+                </label>
+                <button>Enviar</button>
             </form>
         </main>
         <footer>

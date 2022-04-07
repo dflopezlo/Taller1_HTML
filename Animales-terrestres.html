@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name ="author" content="Daniel Fernando López, Nicolás Giraldo Gil, Diana soffía Martínez Palacio"/>
+        <meta name="keywords" content="animales, animales terrestres, mundo animal, biomas, animales acuaticos, biologia, animales aereos"/> <!--Con esta etiqueta meta los administradores tienen la posibilidad de definir palabras clave para el buscador.-->
         <meta name="description" content="En biología, se habla de animales terrestres para referirse a aquellos animales que hacen vida preferente o enteramente sobre la tierra,"/>
         <title>Animales terrestres</title>
     </head>
@@ -15,10 +16,10 @@
                 <li><a href="animales_aereos.html">Página de animales aéreos</a></li>
             </nav>
             <h1> Animales terrestres </h1>
-                <figure>
-                    <img src="Imagenes/animales_terrestres.jpg" alt="animales terrestres"/>
-                    <figcaption>algunos animales terrestres</figcaption>
-                </figure> 
+            <figure>
+                <img src="Imagenes/animales_terrestres.jpg" alt="animales terrestres"/>
+                <figcaption>algunos animales terrestres</figcaption>
+            </figure> 
         </header>
         <main>
             <h2>¿Cuáles son los animales terrestres?</h2>
@@ -27,12 +28,12 @@
                 son los carnívoros, los herbívoros, los omnívoros y también se encuentran los carroñeros.
             </p>
             <h3>Los tipos de animales terrestres son:</h3>
-            <ul>
+            <ol>
                 <li>Carnívoros</li>
                 <li>Herbívoros</li>
                 <li>Omnívoros</li>
                 <li>Carroñeros</li>
-            </ul>
+            </ol>
             <table border="1">
                 <tr>
                     <th>Los Carnívoros</th>
@@ -52,11 +53,46 @@
                     <td><img src="Imagenes/omnivoro.jpg"></td>
                     <td><img src="Imagenes/carroñero.jpg"></td>
                 </tr>
-                <p></p>
             </table>
+            <h2>Animales terrestres: características y ejemplos: </h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4yzkY8pHNjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>Más información sobre animales terrestres: </h2>
+            <iframe src="https://es.wikipedia.org/wiki/Animal_terrestre#Clases_terrestres"></iframe>
+
+            <h1>Si desea tener mas información de la página, deje su información para el contacto: </h1>
+            <form action="">
+                <label for="nombre">
+                    <span>Nombre completo: </span>
+                    <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+                </label>
+                <label for="telefono">
+                    <span>Teléfono: </span>
+                    <input type="tel" id="telefono" placeholder="Ingrese su número telefónico">
+                </label>
+                <label for="correo-electronico">
+                    <span>Correo electrónico: </span>
+                    <input type="email" id="correo-electronico" placeholder="Ingrese su correo electrónico">
+                </label>
+                <label for="pais">
+                    <span>País de residencia</span>
+                    <input type="text" id="pais" placeholder="Ingrese su pais de residencia">
+                </label>
+                <label for="comentarios">
+                    <span>Sugerencias o comentarios</span>
+                    <textarea name="comentarios" placeholder="Ingrese su comentario o sugerencia que desee"></textarea> <!--Un <textarea> es como una caja de texto sencilla, tipo “text”, pero en la que dejamos al usuario espacio de sobra para poder escribir un texto largo. Son útiles para que el usuario contacte con nosotros, plantee sus dudas o sugerencias, etc.-->
+                </label>
+                <button>Enviar</button>
+            </form>
         </main>
         <footer>
-
-          </footer>
+            <p>Copyright &copy; 2022 Universidad Nacional de Colombia Sede Manizales</p>
+            <ul> 
+              <li>Acerca de</li>
+              <li>Algunos derechos reservados</li>
+              <li>Redes Sociales</li>
+              <li>Contacto página web</li>
+              <p>Manizales, Caldas</p>
+            </ul>
+        </footer>
     </body>
 </html>
